@@ -1,0 +1,9 @@
+#sec1 {
+    position: absolute;
+    transform: translateX(0);
+    transition: transform 800ms ease-in 1000ms;
+}
+
+#sec1.foo {
+    transform: translateX(1000px);
+}
